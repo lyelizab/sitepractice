@@ -1,0 +1,110 @@
+/* CSS for 410 site*/
+
+body {
+	margin:0;
+	padding:0;
+	background: #2f3942;
+	font-family:"Arial Narrow";
+}
+
+/*navbar start*/
+.navgroup {
+	list-style: none;
+	background-color: #2f3942;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.nav li {
+	display:inline-block;
+	font-family: 'Arial';
+	font-size: 1.2em;
+	letter-spacing: 0.05em;
+	line-height:40px;
+	height: 40px;
+	border-bottom: 1px solid #888;
+	padding-right:50px;
+	padding-left: 50px;
+}
+	
+.nav a{
+	text-decoration:none;
+	color: #f7f7ff;
+	display: block;
+	transition: .3s background-color;
+	
+}
+
+.nav li:link{
+	text-decoration:none;
+}
+
+.nav li:visited{
+	text-decoration:none;
+}
+
+.nav li:hover {
+	background-color: #50698c;
+}
+
+.nav li.current-page {
+	background-color: #bdd5ea;
+	color: #444;
+	cursor: default;
+}
+/*navbar end*/
+
+#landing {
+	position: absolute;     
+	top: 25%;     
+	left: 50%;     
+	transform: translate(-50%, -50%);
+	color:white;
+	font-family: "Arial Narrow";
+	letter-spacing: 0.05em;
+}
+.container {
+	display:flex;
+}
+.divider {
+	width:50%;
+	min-height:100vh;
+	background-color: #50698c;
+}
+
+.headers {
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    font-family: "Arial Narrow";
+    font-size: 65px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+h1 {
+	color:white;
+	font-family: "Arial Narrow";
+	font-size: 85px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+p {
+	text-align: center;
+	color:white;
+	font-size:20px;
+	font-family: "Arial"
+}
+
+
+ul {
+	list-style:none;
+	text-align:center;
+}
+
+li {
+	color:white;
+	font-size:20px;
+}
